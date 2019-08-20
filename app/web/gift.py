@@ -5,8 +5,6 @@ from app.models.base import db
 from app.models.gift import Gift
 from app.view_models.gift import MyGifts
 from . import web
-__author__ = '七月'
-
 
 @web.route('/my/gifts')
 @login_required

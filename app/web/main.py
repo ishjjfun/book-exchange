@@ -5,9 +5,6 @@ from app.view_models.book import BookViewModel
 from . import web
 
 
-__author__ = '七月'
-
-
 @web.route('/')
 def index():
     recent_gifts = Gift.recent()
